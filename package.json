@@ -21,8 +21,8 @@
     "ws": "^8.8.1"
   },
   "scripts": {
-    "index": "sudo node client.js & node server.js",
-    "client": "sudo node client.js",
+    "index": "node server.js & node client.js",
+    "client": "node client.js",
     "server": "node server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
